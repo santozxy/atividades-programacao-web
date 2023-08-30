@@ -1,3 +1,8 @@
+// ============================ SCROLL ANIMATION ============================
+AOS.init({
+  duration: 1200,
+});
+
 // ============================ TYPING ANIMATION ============================
 var typed = new Typed(".typing", {
   strings: [
@@ -54,7 +59,7 @@ const projectContainer = document.getElementById("projects-content");
 projects.forEach((projects) => {
   const projectCard = document.createElement("div");
   projectCard.innerHTML = `
-  <div class="card">
+  <div class="card" >
     <img src="${projects.image}" alt="${projects.title}" title="Acessar ${projects.title}" loading="lazy" />
     <div class="links">
       <a href="${projects.link}" target="_blank">Ver mais

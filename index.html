@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/favicon.png" type="image/png">
     <title>MyProjects</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
-<header>
+<header data-aos="fade-down">
     <a href="#"><span>My</span>Projects.</a>
     <h1>Web <i class="fa-solid fa-globe"></i></h1>
 </header>
@@ -21,26 +23,28 @@
     <main>
         <!-- =================== SECTION HOME =================== -->
         <section class="home">
-            <div class="home-content">
-                <h1 class="typing center-row"></h1>
+            <div class="home-content" data-aos="fade-up">
                 <div class="home-img floating">
                     <figure>
-                        <img src="assets/me.webp" alt="Foto criada por IA de Monnuery Júnior">
+                        <img data-aos="fade-up" src="assets/me.svg" alt="Foto criada por IA de Monnuery Júnior">
                     </figure>
                 </div>
+                <h1 class="typing"></h1>
             </div>
+
         </section>
+
 
         <!-- =================== SECTION PROJECTS =================== -->
         <section class="projects" id="projects" aria-label="Seção de Projetos">
-            <div class="title-container center-row">
+            <div class="title-container" data-aos="fade-up">
                 <div class="line-section"></div>
                 <h1 class="title-section">Projetos</h1>
                 <div class="line-section"></div>
             </div>
 
-            <div class="projects-content" id="projects-content">
-                <!-- Dados JSON -->
+            <div class="projects-content" id="projects-content" data-aos="fade-up">
+                <!-- JSON -->
             </div>
         </section>
 
@@ -49,13 +53,14 @@
     <footer>
         <div class="copyright">
             <p>
-                Copyright 2023 | <a href="#">MyProjects.</a> - Todos direitos
+                &copy 2023 | <a href="#">MyProjects.</a> - Todos direitos
                 reservados.
             </p>
         </div>
 
     </footer>
     <script src="https://kit.fontawesome.com/bdfd365adb.js" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
