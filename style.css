@@ -121,6 +121,14 @@ img {
     grid-template-columns: 1fr 1fr;
     margin-top: 1rem;
 }
+.home-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    gap: 3rem;
+    color: var(--secondary);
+}
 
 .typing {
     font-size: 3rem;
@@ -131,6 +139,19 @@ img {
 
 .typed-cursor {
     display: none;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
 }
 
 /* ====================== RESPONSIVE SECTION HOME ====================== */
