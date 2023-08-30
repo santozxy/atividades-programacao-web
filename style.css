@@ -94,6 +94,13 @@ img {
   align-items: center;
 }
 
+.home-img img {
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
 .typing {
   font-size: 3rem;
   color: #ff831e;
@@ -103,13 +110,6 @@ img {
 
 .typed-cursor {
   display: none;
-}
-
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {

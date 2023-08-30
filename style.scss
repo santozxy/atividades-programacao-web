@@ -1,10 +1,7 @@
-
 $primary: #1d1d1d;
 $secondary: #ff831e;
 $terciary: #fff;
 $quaternary: #000;
-
-
 
 @font-face {
     font-family: "Poppins";
@@ -114,6 +111,15 @@ img {
     align-items: center;
 }
 
+.home-img {
+    img {
+        animation-name: floating;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+}
 
 .typing {
     font-size: 3rem;
@@ -126,12 +132,7 @@ img {
     display: none;
 }
 
-.floating {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
+
 
 @keyframes floating {
     0% {
@@ -146,6 +147,7 @@ img {
         transform: translate(0);
     }
 }
+
 
 /* ====================== RESPONSIVE SECTION HOME ====================== */
 @media screen and (max-width:1024px) {
