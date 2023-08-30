@@ -82,7 +82,7 @@
 
 					<line
 						style="clip-path:url(#SVGID_00000104704725424573232910000004879511831852714144_);fill:none;stroke:#1d1d1d;stroke-width:1.9495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
-						x1="240.49" y1="224.498" x2="256.788" y2="224.498" />
+						x1="240.49" y1="224.498" x2="256.788" y2="224.498" rx="10" />
 				</g>
 			</g>
 
