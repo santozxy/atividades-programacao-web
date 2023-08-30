@@ -112,6 +112,12 @@ img {
 }
 
 /* ====================== RESPONSIVE SECTION HOME ====================== */
+@media screen and (max-width:480px) {
+    .home-content{
+        grid-template-columns: 1fr;
+    }
+    
+}
 
 
 /* ====================== SECTION PROJECTS ====================== */
