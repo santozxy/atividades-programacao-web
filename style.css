@@ -1,0 +1,320 @@
+:root {
+    --primary: #1d1d1d;
+    --secondary: #ff831e;
+    --terciary: #fff;
+    --quaternary: #000;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Courgette";
+    src: url("./fonts/Courgette-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+
+/* ====================== HEADER ====================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #252525;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px var(--quaternary);
+}
+
+header h1,
+header a {
+    font-size: 2.5rem;
+    color: var(--terciary);
+
+}
+
+header span {
+    font-size: 2.5rem;
+    color: var(--secondary);
+    font-family: "Courgette";
+}
+
+header h1 {
+    font-size: 2.4rem;
+    padding: 0 1rem
+}
+
+body {
+    background-color: var(--primary);
+    margin: auto;
+    height: 100vh;
+    font-family: "Courgette";
+}
+
+main {
+    max-width: 1600px;
+    margin: auto;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* ====================== REUTILIZED ====================== */
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ====================== SECTION HOME ====================== */
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.typing {
+    font-size: 3rem;
+    color: var(--secondary);
+    text-align: center;
+    font-family: "Courgette";
+}
+
+.typing span {
+    width: 1px;
+    height: 5px;
+    background-color: var(--secondary);
+}
+
+.typed-cursor {
+    display: none;
+}
+
+/* ====================== RESPONSIVE SECTION HOME ====================== */
+
+
+/* ====================== SECTION PROJECTS ====================== */
+.title-container {
+    padding: 1rem;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: var(--secondary);
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+}
+
+.projects-container {
+    margin-top: 1rem;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    border-radius: 1rem;
+    gap: 1rem;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: 9px -3px 10px -1px rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.card img {
+    border-radius: .5rem;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    gap: 1rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--terciary);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.links::before {
+    content: "";
+    border-radius: .5rem;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    transition: .8s ease-in-out;
+}
+
+.links::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    transition: .5s ease-in-out;
+}
+
+.links:hover::before {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid var(--secondary);
+    border-right: 2px solid var(--secondary);
+    transition: .5s ease-in-out;
+}
+
+.links:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--secondary);
+    border-left: 2px solid var(--secondary);
+}
+
+.card:hover .links {
+    display: grid;
+    align-content: center;
+}
+
+.links a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .4rem;
+    background-color: var(--secondary);
+    padding: .4rem .8rem;
+    color: var(--terciary);
+    border-radius: .5rem;
+    transition: transform .4s ease-in;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+.links a:hover {
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+
+.links i {
+    font-size: 1.5rem;
+}
+
+/* ====================== RESPONSIVE SECTION PROJECTS ====================== */
+
+@media screen and (max-width:1400px) {
+    .projects-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .links {
+        padding: 0.5rem;
+    }
+
+    .links i {
+        font-size: 2rem;
+    }
+
+    .icon-button {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .projects-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .links a,
+    .links i {
+        font-size: 1rem;
+        padding: .2rem .5rem;
+    }
+
+}
+
+/* ====================== FOOTER ====================== */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    padding: .5rem;
+    box-shadow: 10px 0 10px var(--quaternary);
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    width: 100%;
+    color: var(--terciary);
+    text-align: center;
+}
+
+.copyright a {
+    color: var(--secondary);
+    font-weight: bold;
+}
