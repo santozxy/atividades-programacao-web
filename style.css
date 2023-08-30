@@ -35,23 +35,49 @@ header {
     box-shadow: 5px 5px 10px var(--quaternary);
 }
 
-header h1,
 header a {
     font-size: 2.5rem;
     color: var(--terciary);
-
 }
 
 header span {
     font-size: 2.5rem;
     color: var(--secondary);
-    font-family: "Courgette";
 }
 
 header h1 {
     font-size: 2.4rem;
-    padding: 0 1rem
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    gap: 1rem;
 }
+
+/* ====================== RESPONSIVE SECTION HOME ====================== */
+@media screen and (max-width:480px) {
+
+    header h1,
+    header a {
+        font-size: 2rem;
+        color: var(--terciary);
+
+    }
+
+    header span {
+        font-size: 2rem;
+        color: var(--secondary);
+        font-family: "Courgette";
+    }
+
+    header h1 {
+        font-size: 2rem;
+        padding: 0 1rem
+    }
+
+}
+
 
 body {
     background-color: var(--primary);
@@ -92,6 +118,7 @@ img {
 .home-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
 }
 
 .typing {
@@ -101,22 +128,23 @@ img {
     font-family: "Courgette";
 }
 
-.typing span {
-    width: 1px;
-    height: 5px;
-    background-color: var(--secondary);
-}
-
 .typed-cursor {
     display: none;
 }
 
 /* ====================== RESPONSIVE SECTION HOME ====================== */
 @media screen and (max-width:480px) {
-    .home-content{
+    .home-content {
         grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        padding: .5rem;
     }
-    
+
+    .typing {
+        font-size: 1.5rem;
+    }
+
 }
 
 
