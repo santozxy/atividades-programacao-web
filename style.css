@@ -107,10 +107,9 @@ img {
   text-align: center;
   font-family: "Courgette";
 }
+
 .typed-cursor {
-  color:#fff;
-  font-size: 2.2rem;
-  margin-left:.2rem;
+  display: none;
 }
 
 @keyframes floating {
@@ -137,16 +136,10 @@ img {
   .typing {
     font-size: 2rem;
   }
-  .typed-cursor {
-    font-size: 1.5rem;
-  }
 }
 @media screen and (max-width: 480px) {
   .typing {
     font-size: 1.8rem;
-  }
-  .typed-cursor {
-    font-size: 1.2rem;
   }
 }
 /* ====================== SECTION PROJECTS ====================== */
