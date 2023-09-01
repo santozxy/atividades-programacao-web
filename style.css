@@ -107,7 +107,10 @@ img {
   text-align: center;
   font-family: "Courgette";
 }
-
+.typed-cursor {
+  color:#ff831e;
+  font-size: 2rem;
+}
 
 @keyframes floating {
   0% {
