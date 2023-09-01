@@ -31,7 +31,7 @@ const projects = [
   {
     id: "3",
     title: "Atividade 3",
-    image: "assets/test.png",
+    image: "assets/Atividade-3.webp",
     link: "./atividades/atividade-3/index.html",
   },
   {
