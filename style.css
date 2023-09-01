@@ -108,8 +108,8 @@ img {
   font-family: "Courgette";
 }
 .typed-cursor {
-  color:#ff831e;
-  font-size: 2rem;
+  color:#fff;
+  font-size: 3rem;
 }
 
 @keyframes floating {
@@ -136,9 +136,15 @@ img {
   .typing {
     font-size: 2rem;
   }
+  .typed-cursor {
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .typing {
+    font-size: 1.8rem;
+  }
+  .typed-cursor {
     font-size: 1.8rem;
   }
 }
