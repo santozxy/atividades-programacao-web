@@ -12,6 +12,19 @@ $quaternary: #a0a0a0;
     border: 0;
 }
 
+::-webkit-scrollbar-track {
+    background-color: $primary;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $secondary;
+    border-radius: 3px;
+}
+
 body {
     width: 100%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -22,7 +35,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1d1d1d;
+    background-color: #252525;
     padding: 1rem;
     box-shadow: 5px 5px 10px #000;
     z-index: 99;

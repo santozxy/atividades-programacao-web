@@ -21,20 +21,56 @@
 <body>
     <main>
         <section class="contact" id="contact">
-            <div class="contact-content">
+
+            <div class="contact-title">
+                <h1>Any questions<span> ?</span></h1>
+                <h3>We look forward to hearing from you! Get in touch with us to explore how our web and digital
+                    development solutions can enhance your online presence and drive your success. Our dedicated team is
+                    ready to answer your questions, discuss your ideas, and collaborate to turn your vision into
+                    reality. Whatever your project may be, we're here to assist.</h3>
+            </div>
+            <div class="contact-img">
+                <img src="contact-img.png" alt="Imagem Ilustrativa">
+            </div>
+
+            <div class="contact-means">
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <span>Endereço</span>
+                        <p><a href="https://goo.gl/maps/abCjB7avZr1q6cCo7" target="_blank">Teresina, Piauí</a></p>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <span>Telefone</span>
+                        <p>+55 86 9 9999 9999</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <span>Website</span>
+                        <p><a href="https://isdeveloper.com.br" target="_blank">isdeveloper.com.br</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-container">
                 <div class="contact-title">
-                    <h1>Meet the company<span>.</span></h1>
-                    <h3>
-                        At <span>Developers</span> we are committed to unlocking the full potential of your business
-                        through
-                        cutting-edge web and digital development solutions. Our passionate team of developers,
-                        designers, and strategists work together to translate your visions into digital reality. From
-                        crafting captivating online platforms to developing intuitive mobile applications, we are here
-                        to strengthen your online presence and drive your growth.</h3>
+                    <h1>Send<span> Message</span>.</h1>
                 </div>
-                <div class="contact-img">
-                    <img src="contact-img.png" alt="Imagem Ilustrativa">
-                </div>
+                <form id="form-contact" class="form-contact" method="get">
+                    <div class="form-content">
+                        <input type="text" id="name" name="name" required placeholder="Your name"
+                            autocomplete="on">
+                        <input type="email" id="email" name="email" required placeholder="Your email"
+                            autocomplete="on">
+                    </div>
+                    <div class="form-content-2">
+                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                        <textarea id="message" name="message" rows="4" required placeholder="Enter the text"></textarea>
+                    </div>
+                    <div class="form-content">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

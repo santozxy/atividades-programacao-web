@@ -11,6 +11,18 @@ $quaternary: #a0a0a0;
     list-style: none;
     border: 0;
 }
+::-webkit-scrollbar-track {
+    background-color: $primary;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $secondary;
+    border-radius: 3px;
+}
 
 body {
     width: 100%;
@@ -22,7 +34,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1d1d1d;
+    background-color: #252525;
     padding: 1rem;
     box-shadow: 5px 5px 10px #000;
     z-index: 99;
@@ -142,6 +154,9 @@ header {
     .about-title {
         h1 {
             font-size: 1.8rem;
+        }
+        h3{
+            font-weight: 200;
         }
 
         a {
