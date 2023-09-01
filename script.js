@@ -19,13 +19,13 @@ const projects = [
   {
     id: "1",
     title: "Atividade 1",
-    image: "assets/Atividade 1.png",
+    image: "assets/Atividade-1.webp",
     link: "./atividades/atividade-1/index.html",
   },
   {
     id: "2",
     title: "Atividade 2",
-    image: "assets/Atividade 2.png",
+    image: "assets/Atividade-2.webp",
     link: "./atividades/atividade-2/index.html",
   },
   {
