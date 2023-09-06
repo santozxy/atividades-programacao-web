@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Atividade 4</h1>
+    <section class="login">
+        <div class="form-container">
+            <div class="form-header">
+                <img src="icon.png" alt="">
+                <h1><span>IS</span>DEVELOPER</h1>
+            </div>
+
+            <form id="form" action="./home/home.html">
+                <input id="email" type="email" placeholder="E-mail" required role="email" autocomplete="true">
+                <input id="password" type="password" placeholder="Password" maxlength="9" minlength="6" required role="password">
+                <button class="sign-in" type="submit">Sign in</button>
+                <div class="redirects">
+                    <a href="#">Forgot password?</a>
+                    <a href="./register/register.html">Register</a>
+                </div>
+            </form>
+            <div class="loader"></div>
+            <div class="social-icons">
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                </p>
+                <p>
+                    <i class="fa-brands fa-twitter"></i>
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://kit.fontawesome.com/bdfd365adb.js" crossorigin="anonymous" defer></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
