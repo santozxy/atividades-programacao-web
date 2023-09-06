@@ -37,7 +37,7 @@ const projects = [
   {
     id: "4",
     title: "Atividade 4",
-    image: "./assets/test.png",
+    image: "./assets/Atividade-4.webp",
     link: "./atividades/atividade-4/index.html",
   },
   {

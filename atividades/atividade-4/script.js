@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         loader.style.display = "none";
         redirects.style.display = "flex";
         form.submit();
-      }, 3000);
+      }, 2000);
     }
   });
 });
