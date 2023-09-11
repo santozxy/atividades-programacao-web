@@ -40,18 +40,6 @@ const projects = [
     image: "./assets/Atividade-4.webp",
     link: "./atividades/atividade-4/index.html",
   },
-  {
-    id: "5",
-    title: "Atividade 5",
-    image: "./assets/test.png",
-    link: "./atividades/atividade-5/index.html",
-  },
-  {
-    id: "6",
-    title: "Atividade 6",
-    image: "./assets/test.png",
-    link: "./atividades/atividade-6/index.html",
-  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
@@ -61,7 +49,8 @@ projects.forEach((projects) => {
   projectCard.innerHTML = `
   <div class="card" >
     <img src="${projects.image}" alt="${projects.title}" title="Acessar ${projects.title}" loading="lazy" />
-    <div class="links">
+    <div class="card-info">
+      <h2>${projects.title}</h2>
       <a href="${projects.link}" target="_blank">Ver mais
           <i class="fa-solid fa-arrow-right"></i>
       </a>
