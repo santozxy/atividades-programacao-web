@@ -18,27 +18,33 @@ var typed = new Typed(".typing", {
 const projects = [
   {
     id: "1",
-    title: "Atividade 1",
+    title: "Atividade 1 - Tags HTMl",
     image: "assets/Atividade-1.webp",
     link: "./atividades/atividade-1/index.html",
   },
   {
     id: "2",
-    title: "Atividade 2",
+    title: "Atividade 2 - Site Empresa",
     image: "assets/Atividade-2.webp",
     link: "./atividades/atividade-2/index.html",
   },
   {
     id: "3",
-    title: "Atividade 3",
+    title: "Atividade 3 - Tabelas",
     image: "assets/Atividade-3.webp",
     link: "./atividades/atividade-3/index.html",
   },
   {
     id: "4",
-    title: "Atividade 4",
+    title: "Atividade 4 - Formulário",
     image: "./assets/Atividade-4.webp",
     link: "./atividades/atividade-4/index.html",
+  },
+  {
+    id: "4",
+    title: "Projeto 1 - JM Viagens",
+    image: "./assets/Projeto01.webp",
+    link: "./projetos/project-1/index.html",
   },
 ];
 

@@ -206,6 +206,7 @@ img {
 .card-info {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
