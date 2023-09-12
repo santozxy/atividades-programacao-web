@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+a.active {
+    color: #ed9238;
+    border-bottom: 1px solid;
+}
+
+.overlay {
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.traveling h1{
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilos para os cards de destino */
+.destination-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.destination-card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.destination-card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.destination-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.destination-card li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.destination-card a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0;
+    padding: .3rem 1.4rem;
+    border-radius: .6rem;
+    background-color: #ed9238;
+    color: #000;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-card {
+        width: 90%;
+    }
+}
