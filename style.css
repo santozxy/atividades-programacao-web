@@ -133,12 +133,16 @@ img {
   }
 }
 @media screen and (max-width: 820px) {
+  .home-content h1 {
+    text-align: center;
+  }
   .typing {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
   .typing {
+    text-align: center;
     font-size: 1.8rem;
   }
 }
