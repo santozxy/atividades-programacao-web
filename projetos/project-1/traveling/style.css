@@ -1,7 +1,7 @@
-
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,8 @@ nav ul {
 nav ul li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -33,7 +34,7 @@ h1 {
     margin: 0;
 }
 
-.traveling h1{
+.traveling h1 {
     font-size: 2rem;
 }
 
@@ -81,18 +82,25 @@ h1 {
     font-size: 0.9rem;
 }
 
-.destination-card a{
+.destination-card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
     border: 0;
-    padding: .3rem 1.4rem;
+    padding: .4rem 0;
     border-radius: .6rem;
     background-color: #ed9238;
     color: #000;
     cursor: pointer;
     transition: transform .5s ease;
+}
+
+h4 {
+    text-align: center;
 }
 
 

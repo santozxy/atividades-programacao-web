@@ -27,27 +27,3 @@ a.active {
 img {
     width: 100%;
 }
-
-.home,
-.about,
-.contact {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.img-about{
-    align-self: center;
-    width: 400px;
-    height: 300px;
-    object-position: center;
-    object-fit: contain;
-}
-h4{
-    text-align: center;
-}
-
-a.active {
-    color: #ed9238;
-}
-
