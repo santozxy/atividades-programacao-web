@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,8 @@ nav ul {
 nav ul li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -27,4 +29,83 @@ a.active {
 
 img {
     width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #ed9238;
+}
+
+form img {
+    width: 500px;
+}
+
+.forms {
+    padding: 1rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    gap: .5rem;
+}
+
+.input input {
+    width: 320px;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    cursor: pointer;
+}
+
+span,
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-reserva {
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: .4rem 0;
+    border-radius: .6rem;
+    background-color: #0097B2;
+    color: #fff;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+.btn-reserva:hover{
+    transform: scale(1.05);
 }

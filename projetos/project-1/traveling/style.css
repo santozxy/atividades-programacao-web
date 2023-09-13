@@ -83,7 +83,7 @@ h1 {
     font-size: 0.9rem;
 }
 
-.destination-card a {
+.btn-reserva {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +98,15 @@ h1 {
     color: #000;
     cursor: pointer;
     transition: transform .5s ease;
+}
+
+
+.btn-searchPackages{
+    background-color: #0584ce;
+    width: 320px;
+    margin: 1rem auto 5rem;
+    color: #fff;
+    border: 2px solid #726b64;
 }
 
 h4 {

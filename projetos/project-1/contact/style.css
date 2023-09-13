@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,8 @@ nav ul {
 nav ul li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -71,17 +73,24 @@ a.active {
 }
 
 .contact-means {
-    padding: 3rem;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .contact-list {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 
 .contact-list li {
     display: flex;
@@ -89,8 +98,6 @@ a.active {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    width: 15rem;
-    height: 10rem;
 }
 
 .contact-list li i {
@@ -135,6 +142,7 @@ a.active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -189,20 +197,22 @@ textarea {
     transform: scale(1.05);
 }
 
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-}
 
-.social-icons a {
-    color: #ed9238;
-    font-size: 2.5rem;
-    transition: .4s ease;
-}
 
-.social-icons a:hover {
-    transform: scale(1.1);
-    color: #000;
+@media screen and (max-width:500px) {
+
+    .form-content,
+    .form-content-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-list {
+
+        gap: 1rem;
+   
+    }
+
+
 }
