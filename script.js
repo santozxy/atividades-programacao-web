@@ -47,8 +47,8 @@ const projects = [
     link: "./projetos/project-1/index.html",
   },
   {
-    id: "5",
-    title: "Atividade % - Estilo CSS",
+    id: "6",
+    title: "Atividade 5 - Estilo CSS",
     image: "./assets/teste.png",
     link: "./atividades/atividade-5/index.html",
   },
