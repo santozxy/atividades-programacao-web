@@ -41,10 +41,16 @@ const projects = [
     link: "./atividades/atividade-4/index.html",
   },
   {
-    id: "4",
+    id: "5",
     title: "Projeto 1 - JM Viagens",
     image: "./assets/Projeto01.webp",
     link: "./projetos/project-1/index.html",
+  },
+  {
+    id: "5",
+    title: "Atividade % - Estilo CSS",
+    image: "./assets/teste.png",
+    link: "./atividades/atividade-5/index.html",
   },
 ];
 
