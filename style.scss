@@ -157,6 +157,7 @@ img {
     .home-content h1 {
         text-align: center;
     }
+
     .typing {
         font-size: 2rem;
     }
@@ -232,7 +233,7 @@ img {
 .card-info {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
@@ -241,7 +242,7 @@ img {
     height: 100%;
 
     a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: bold;
         display: flex;
         justify-content: center;
@@ -249,7 +250,7 @@ img {
         text-align: center;
         gap: 0.4rem;
         background-color: $secondary;
-        padding: 0.2rem 1rem;
+        padding: 0.2rem .5rem;
         color: $terciary;
         border-radius: 0.5rem;
         transition: transform 0.4s ease-in;
@@ -305,6 +306,7 @@ img {
     }
 
     .links {
+
         a,
         i {
             font-size: 1.2rem;
