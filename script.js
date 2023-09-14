@@ -47,10 +47,16 @@ const projects = [
     link: "./projetos/project-1/index.html",
   },
   {
-    id: "6",
-    title: "Atividade 5 - Style CSS",
+    id: "7",
+    title: "Atividade 5 - CSS Inline",
     image: "./assets/test.png",
     link: "./atividades/atividade-5/index.html",
+  },
+  {
+    id: "7",
+    title: "Atividade 6 - Style CSS",
+    image: "./assets/Atividade-6.png",
+    link: "./atividades/atividade-6/index.html",
   },
 ];
 
