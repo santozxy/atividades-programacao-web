@@ -49,7 +49,7 @@ const projects = [
   {
     id: "6",
     title: "Atividade 5 - Estilo CSS",
-    image: "./assets/teste.png",
+    image: "./assets/test.png",
     link: "./atividades/atividade-5/index.html",
   },
 ];
