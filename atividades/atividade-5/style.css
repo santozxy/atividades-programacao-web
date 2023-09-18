@@ -1,0 +1,27 @@
+h1,h2{
+    font-size: 2rem;
+}
+
+h1{
+    color: cadetblue;
+}
+
+h2{
+    color: darkorange;
+}
+
+.red{
+    color:red ;
+}
+
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+
+
