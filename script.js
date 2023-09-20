@@ -56,6 +56,12 @@ const projects = [
     id: "7",
     title: "Atividade Extra - CSS",
     image: "./assets/Atividade-extra-5.png",
+    link: "./atividades/atividade-5/atividade-extra/index.html",
+  },
+  {
+    id: "8",
+    title: "Atividade 6 - Div e Span",
+    image: "./assets/Atividade-6.png",
     link: "./atividades/atividade-6/index.html",
   },
 ];

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------- Divs e container ------------- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border-style: solid;
+    border-style: 5px 10px 5px 5px;
+    border-color: #ca0d0d #008000 #c641ee #0d19c2;
+}
+
+#menu {
+    width: 100%;
+    background-color: #e23030;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+}
+
+#Conteudo {
+    width: 100%;
+    background-color: #0d7ac2;
+}
+
+#rodapé {
+    background-color: rgb(183, 0, 255);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.copy {
+    font-style: italic;
+    font-weight: bold;
+}

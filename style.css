@@ -210,7 +210,7 @@ img {
 .card-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
@@ -219,7 +219,7 @@ img {
   height: 100%;
 }
 .card-info a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -227,7 +227,7 @@ img {
   text-align: center;
   gap: 0.4rem;
   background-color: #ff831e;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 0.5rem;
   color: #fff;
   border-radius: 0.5rem;
   transition: transform 0.4s ease-in;
