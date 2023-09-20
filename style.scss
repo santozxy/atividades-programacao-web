@@ -223,9 +223,9 @@ img {
     img {
         border-top-right-radius: 0.5rem;
         border-top-left-radius: 0.5rem;
-        height: 100%;
+        height: 280px;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
     }
 }
