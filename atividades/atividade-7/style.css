@@ -1,0 +1,25 @@
+.content{
+    font-size: 8px;
+}
+
+.subtitle{
+    color: #e406c6;   
+}
+
+.serif{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    font-style: oblique;
+}
+
+.sans-serif{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    font-style: oblique;
+}

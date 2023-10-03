@@ -64,6 +64,18 @@ const projects = [
     image: "./assets/Atividade-6.png",
     link: "./atividades/atividade-6/index.html",
   },
+  {
+    id: "9",
+    title: "Atividade 7 - Family Fonts",
+    image: "./assets/Atividade-7.png",
+    link: "./atividades/atividade-7/index.html",
+  },
+  {
+    id: "10",
+    title: "Atividade 8 - Galeria",
+    image: "./assets/Atividade-8.png",
+    link: "./atividades/atividade-8/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
