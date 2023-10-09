@@ -76,6 +76,18 @@ const projects = [
     image: "./assets/Atividade-8.png",
     link: "./atividades/atividade-8/index.html",
   },
+  {
+    id: "11",
+    title: "Atividade 9 - Position e Display",
+    image: "./assets/Atividade-9.png",
+    link: "./atividades/atividade-9/index.html",
+  },
+  {
+    id: "12",
+    title: "Atividade 10 - Noticias",
+    image: "./assets/Atividade-10.png",
+    link: "./atividades/atividade-10/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");

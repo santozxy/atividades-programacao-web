@@ -15,7 +15,7 @@ a {
     color: #fff;
 }
 
-header a:hover{
+header a:hover {
     color: aquamarine;
 }
 
@@ -23,7 +23,7 @@ p {
     margin-top: 1rem;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -58,11 +58,11 @@ section.notices {
 }
 
 article.notice {
-    width: 300px;
+    width: 330px;
     margin: 20px;
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     gap: 1rem;
 }
 
