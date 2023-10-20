@@ -88,6 +88,12 @@ const projects = [
     image: "./assets/Atividade-10.png",
     link: "./atividades/atividade-10/index.html",
   },
+  {
+    id: "13",
+    title: "Atividade 11 - HTML Semântico",
+    image: "./assets/Atividade-11.png",
+    link: "./atividades/atividade-11/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
