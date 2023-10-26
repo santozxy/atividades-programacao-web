@@ -78,7 +78,7 @@ const projects = [
   },
   {
     id: "11",
-    title: "Atividade 9 - Position e Display",
+    title: "Atividade 9 - Position",
     image: "./assets/Atividade-9.png",
     link: "./atividades/atividade-9/index.html",
   },
@@ -93,6 +93,12 @@ const projects = [
     title: "Atividade 11 - HTML Semântico",
     image: "./assets/Atividade-11.png",
     link: "./atividades/atividade-11/index.html",
+  },
+  {
+    id: "14",
+    title: "Atividade 12 - Atributos",
+    image: "./assets/Atividade-12.png",
+    link: "./atividades/atividade-12/index.html",
   },
 ];
 
