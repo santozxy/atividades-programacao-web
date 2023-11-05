@@ -1,0 +1,72 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+legend {
+    font-weight: 600;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border-radius-01 {
+    width: 100px;
+    height: 100px;
+    background-color: #0732f0;
+    border-radius: 50px 50px 0px 50px;
+}
+
+.border-radius-01:nth-child(2) {
+    border-radius: 50px 50px 50px 0px;
+    background-color: #960f0f;
+}
+
+.border-radius-01:nth-child(3) {
+    border-radius: 50px 0px 50px 50px;
+    background-color: #ce02a2;
+}
+
+.border-radius-01:nth-child(4) {
+    border-radius: 0px 50px 50px 50px;
+    background-color: #deee00;
+}
+
+.border-radius-02 {
+    width: 100px;
+    height: 100px;
+    background-color: #0cd3b8;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.border-radius-02:nth-child(2) {
+    background-color: #e40d0d;
+    border-radius: 0px 100px 0px 0px;
+}
+
+.border-radius-02:nth-child(3) {
+    background-color: #ff00c8;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.border-radius-02:nth-child(4) {
+    background-color: #51ff00;
+    border-radius: 0px 0px 100px 0px;
+}

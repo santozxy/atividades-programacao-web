@@ -100,6 +100,12 @@ const projects = [
     image: "./assets/Atividade-12.png",
     link: "./atividades/atividade-12/index.html",
   },
+  {
+    id: "15",
+    title: "Atividade 13 - CSS3",
+    image: "./assets/Atividade-12.png",
+    link: "./atividades/atividade-12/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
