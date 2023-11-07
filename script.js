@@ -112,6 +112,12 @@ const projects = [
     image: "./assets/Atividade-14.png",
     link: "./atividades/atividade-14/index.html",
   },
+  {
+    id: "17",
+    title: "Tarefa 15 - Animações ",
+    image: "./assets/Atividade-15.png",
+    link: "./atividades/atividade-15/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");

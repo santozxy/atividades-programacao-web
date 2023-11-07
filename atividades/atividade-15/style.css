@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    cursor: pointer;
+    animation: rotateAndChangeColor 10s infinite;
+}
+
+@keyframes rotateAndChangeColor {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        background-color: blue;
+    }
+
+    25% {
+        transform: rotate(90deg);
+        background-color: red;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        background-color: green;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        background-color: orange;
+    }
+}
