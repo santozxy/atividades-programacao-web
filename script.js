@@ -118,6 +118,24 @@ const projects = [
     image: "./assets/Atividade-15.png",
     link: "./atividades/atividade-15/index.html",
   },
+  {
+    id: "18",
+    title: "Tarefa 16 - Responsividade ",
+    image: "./assets/Atividade-16.png",
+    link: "./atividades/atividade-16/index.html",
+  },
+  {
+    id: "19",
+    title: "Tarefa 17 - Bootstrap Gallery",
+    image: "./assets/Atividade-17.png",
+    link: "./atividades/atividade-17/index.html",
+  },
+  {
+    id: "18",
+    title: "Tarefa 18 - Form e Table ",
+    image: "./assets/Atividade-18.png",
+    link: "./atividades/atividade-18/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");

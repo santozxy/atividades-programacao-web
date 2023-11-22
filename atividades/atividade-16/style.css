@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:600px) {
+    header nav ul {
+        display: block;
+        list-style: disc;
+    }
+
+    header nav ul li {
+        text-decoration: none;
+    }
+}
