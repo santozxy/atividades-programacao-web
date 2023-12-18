@@ -131,10 +131,16 @@ const projects = [
     link: "./atividades/atividade-17/index.html",
   },
   {
-    id: "18",
+    id: "20",
     title: "Tarefa 18 - Form e Table ",
     image: "./assets/Atividade-18.png",
     link: "./atividades/atividade-18/index.html",
+  },
+  {
+    id: "21",
+    title: "Tarefa 19 - User Profile ",
+    image: "./assets/Atividade-19.png",
+    link: "./atividades/atividade-19/index.html",
   },
 ];
 
