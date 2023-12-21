@@ -148,6 +148,12 @@ const projects = [
     image: "./assets/Atividade-20.png",
     link: "./atividades/atividade-20/index.html",
   },
+  {
+    id: "23",
+    title: "Tarefa 21 - Tabela de Produtos ",
+    image: "./assets/Atividade-21.png",
+    link: "./atividades/atividade-21/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
