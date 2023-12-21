@@ -142,6 +142,12 @@ const projects = [
     image: "./assets/Atividade-19.png",
     link: "./atividades/atividade-19/index.html",
   },
+  {
+    id: "22",
+    title: "Tarefa 20 - NavBar e Modal ",
+    image: "./assets/Atividade-20.png",
+    link: "./atividades/atividade-20/index.html",
+  },
 ];
 
 const projectContainer = document.getElementById("projects-content");
